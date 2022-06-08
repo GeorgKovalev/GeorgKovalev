@@ -12,4 +12,4 @@ for cur_el in s:
             numbers3.append(cur_el)
     elif len(cur_el) > 4:
         words4.append(cur_el)
-print(','.join(numbers2 + numbers3 + words4), end='')    
+print(','.join(numbers2 + numbers3 + words4), end='\n')
